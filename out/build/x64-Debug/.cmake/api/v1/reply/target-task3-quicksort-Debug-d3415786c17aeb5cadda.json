@@ -1,0 +1,1156 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "task3-quicksort.exe"
+		},
+		{
+			"path" : "task3-quicksort.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"addTask",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"out/build/x64-Debug/_deps/benchmark-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 1
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BENCHMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HW2_BENCHMARKS_FOLDER=\"D:/Algoritms/template-cpp/template-cpp/benchmarks\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HW2_EXECUTABLE_NAME=\"task3-quicksort\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "D:/Algoritms/template-cpp/template-cpp/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Algoritms/template-cpp/template-cpp/out/build/x64-Debug/_deps/benchmark-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Algoritms/template-cpp/template-cpp/out/build/x64-Debug/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Algoritms/template-cpp/template-cpp/out/build/x64-Debug/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "benchmark::@2fa91c1ea4e05cbc4511"
+		}
+	],
+	"id" : "task3-quicksort::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\gtest.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\gtest_main.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps\\benchmark-build\\src\\benchmark.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\gtest.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "task3-quicksort",
+	"nameOnDisk" : "task3-quicksort.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "task3-quicksort.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/benchmarkdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/common_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/internalerror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/kth-order-statistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/median.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/min-max-element.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "utils/quicksort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/include/benchmark/benchmark.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/include/benchmark/export.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/arraysize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/benchmark_api_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/benchmark_register.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/benchmark_runner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/colorprint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/commandlineflags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/complexity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/counter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/cycleclock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/internal_macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/mutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/perf_counters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/re.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/statistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/string_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/thread_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/thread_timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/src/timers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/benchmark-src/test/output_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/gmock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/test/gmock-matchers_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googlemock/test/gmock_link_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-message.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-spi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/samples/prime_tables.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/samples/sample1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/samples/sample2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/samples/sample3-inl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/samples/sample4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/src/gtest-internal-inl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/test/googletest-param-test-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/test/gtest-typed-test_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/_deps/googletest-src/googletest/test/production.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/CMakeFiles/ShowIncludes/foo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/include/benchmark/benchmark.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/include/benchmark/export.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/arraysize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/benchmark_api_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/benchmark_register.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/benchmark_runner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/colorprint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/commandlineflags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/complexity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/counter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/cycleclock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/internal_macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/mutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/perf_counters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/re.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/statistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/string_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/thread_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/thread_timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/src/timers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/benchmark-src/test/output_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/gmock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/test/gmock-matchers_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googlemock/test/gmock_link_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-message.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-printers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-spi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/gtest_prod.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/samples/prime_tables.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/samples/sample1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/samples/sample2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/samples/sample3-inl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/samples/sample4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/src/gtest-internal-inl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/test/googletest-param-test-test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/test/gtest-typed-test_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "out/build/x64-Debug/_deps/googletest-src/googletest/test/production.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
